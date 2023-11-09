@@ -1,0 +1,60 @@
+namespace MyNamespace
+{
+    public class SelectProductPO
+    {
+
+        [Given(@"que acesso a página incial do site PO")]
+        public void DadoQueAcessoAPaginaIncialDoSitePO()
+        {
+            _scenarioContext.Pending();
+        }
+
+        [When(@"preencho o usuário como ""(.*)"" PO")]
+        public void QuandoPreenchoOUsuarioComoPO(string p0)
+        {
+            _scenarioContext.Pending();
+        }
+
+        [When(@"a senha ""(.*)"" e clico no botão Login PO")]
+        public void QuandoASenhaEClicoNoBotaoLoginPO(string p0)
+        {
+            _scenarioContext.Pending();
+        }
+
+        [Then(@"exibe ""(.*)"" no titulo da secao PO")]
+        public void EntaoExibeNoTituloDaSecaoPO(string products0)
+        {
+            _scenarioContext.Pending();
+        }
+
+        [When(@"adiciono o produto ""(.*)"" ao carrinho PO")]
+        public void QuandoAdicionoOProdutoAoCarrinhoPO(string p0)
+        {
+            _scenarioContext.Pending();
+        }
+
+        [When(@"clico no ícone do carrinho de compras PO")]
+        public void QuandoClicoNoIconeDoCarrinhoDeComprasPO()
+        {
+            _scenarioContext.Pending();
+        }
+
+        [Then(@"exibe a pagina do carrinho com a quantidade ""(.*)"" PO")]
+        public void EntaoExibeAPaginaDoCarrinhoComAQuantidadePO(string p0)
+        {
+            _scenarioContext.Pending();
+        }
+
+        [Then(@"o nome do produto ""(.*)"" PO")]
+        public void EntaoONomeDoProdutoPO(string p0)
+        {
+            _scenarioContext.Pending();
+        }
+
+        [Then(@"o preço como ""(.*)"" PO")]
+        public void EntaoOPrecoComoPO(string p0)
+        {
+            _scenarioContext.Pending();
+        }
+
+        }
